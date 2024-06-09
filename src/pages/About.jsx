@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="hero min-h-screen bg-base-200  mt-10">
+    <div className="hero min-h-screen bg-base-200 ">
       <div className="hero-content flex-col lg:flex-row">
         <img
           src="/public/admin-pic.png"
@@ -19,7 +19,9 @@ const About = () => {
             contact me via email at zobayed.ict05@gmail.com or connect with me
             via phone at +8801518314971 (Whatsapp)
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <a href="/public/Zobayed.pdf" target="_blank">
+        <button className="btn bg-cyan-500 text-white">More details</button>
+        </a>
         </div>
       </div>
     </div>
